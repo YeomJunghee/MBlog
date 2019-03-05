@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+
+
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    
+        <link rel="apple-touch-icon" sizes="57x57" href="https://cdn-class.likelion.org/static/img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://cdn-class.likelion.org/static/img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://cdn-class.likelion.org/static/img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://cdn-class.likelion.org/static/img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://cdn-class.likelion.org/static/img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://cdn-class.likelion.org/static/img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://cdn-class.likelion.org/static/img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://cdn-class.likelion.org/static/img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://cdn-class.likelion.org/static/img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="https://cdn-class.likelion.org/static/img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://cdn-class.likelion.org/static/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="https://cdn-class.likelion.org/static/img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://cdn-class.likelion.org/static/img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="https://cdn-class.likelion.org/static/img/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="https://cdn-class.likelion.org/static/img/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+
+    
+    
+    
+    
+        <link href="https://cdn-class.likelion.org/static/assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn-class.likelion.org/static/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn-class.likelion.org/static/assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn-class.likelion.org/static/assets/plugins/jquery-scrollbar/jquery.scrollbar.css" rel="stylesheet"
+              type="text/css" media="screen"/>
+        <link href="https://cdn-class.likelion.org/static/pages/css/pages-icons.css" rel="stylesheet" type="text/css">
+        <link class="main-stylesheet" href="https://cdn-class.likelion.org/static/pages/css/themes/unlax.css" rel="stylesheet"
+              type="text/css"/>
+    
+    <title>
+        
+        클래스 라이언
+    </title>
+    
+    <script type="text/javascript">
+        window.onload = function () {
+            // fix for windows 8
+            if (navigator.appVersion.indexOf("Windows NT 6.2") != -1)
+                document.head.innerHTML += '<link rel="stylesheet" type="text/css" href="https://cdn-class.likelion.org/static/pages/css/windows.chrome.fix.css" />'
+        }
+    </script>
+
+ 
+</head>
+
+    <body class="fixed-header">
+
+
+
+    <div class="login-wrapper ">
+        <!-- START Login Background Pic Wrapper-->
+        <div class="bg-pic">
+            <!-- START Background Pic-->
+            <img src="https://cdn-class.likelion.org/static/img/%20bg-3.jpg" data-src="https://cdn-class.likelion.org/static/img/bg-3.jpg"
+                 data-src-retina="https://cdn-class.likelion.org/static/img/bg-3.jpg" alt=""
+                 class="lazy">
+            <!-- END Background Pic-->
+            <!-- START Background Caption-->
+            <div class="bg-caption pull-bottom sm-pull-bottom text-white p-l-20 m-b-20">
+                <h1 class="bold text-white p-l-20"></h1>
+            </div>
+            <!-- END Background Caption-->
+        </div>
+        <!-- END Login Background Pic Wrapper-->
+        <!-- START Login Right Container-->
+        <div class="login-container bg-white">
+            <div class="p-l-50 m-l-20 p-r-50 m-r-20 p-t-50 m-t-30 sm-p-l-15 sm-p-r-15 sm-p-t-40">
+                <a href="/">
+<img alt="logo" data-src="https://cdn-class.likelion.org/static/img/class_lion_logo.png"
+                         data-src-retina="https://cdn-class.likelion.org/static/img/class_lion_logo.png" height="22"
+                         src="https://cdn-class.likelion.org/static/img/class_lion_logo.png" width="175"></a>
+                <!-- START Login Form -->
+                <form id="form-login" class="p-t-15" role="form" method="POST"
+                      action="/accounts/login/?next=/board/notices/">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="9VS7hQgAvPPgmtS5Rjrojn2GQnLgGs1UFoa9YiBjhIFJtjnX1WonReqJqsXAerox">
+                    <!-- START Form Control-->
+                    <div class="form-group form-group-default">
+                        <label for="id_username">아이디</label>
+                        <div class="controls">
+                            <input type="email" id="id_username"
+                                   name="username" placeholder="" class="form-control" required autofocus>
+                        </div>
+                    </div>
+                    <!-- END Form Control-->
+                    <!-- START Form Control-->
+                    <div class="form-group form-group-default">
+                        <label for="id_password">비밀번호</label>
+                        <div class="controls">
+                            <input type="password" class="form-control" id="id_password"
+                                   name="password" placeholder="" required>
+                        </div>
+                    </div>
+                    <!-- START Form Control-->
+                    <div class="row">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    <!-- END Form Control-->
+                    
+                    <button class="btn btn-primary btn-cons m-t-10" type="submit">시작</button>
+                    <a class="btn btn-primary btn-cons m-t-10" href="/accounts/password_reset/">
+                        비밀번호 찾기
+                    </a>
+
+
+                </form>
+                <!--END Login Form-->
+            </div>
+        </div>
+        <!-- END Login Right Container-->
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/pace/pace.min.js" type="text/javascript"></script>
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/jquery/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/modernizr.custom.js" type="text/javascript"></script>
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/popper/umd/popper.min.js" type="text/javascript"></script>
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/jquery/jquery-easy.js" type="text/javascript"></script>
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/jquery-unveil/jquery.unveil.min.js" type="text/javascript"></script>
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/jquery-ios-list/jquery.ioslist.min.js" type="text/javascript"></script>
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/jquery-actual/jquery.actual.min.js"></script>
+    <script src="https://cdn-class.likelion.org/static/assets/plugins/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="https://cdn-class.likelion.org/static/pages/js/pages.min.js" type="text/javascript"></script>
+
+    
+    <script src="https://cdn-class.likelion.org/static/full-screen.js" type="text/javascript"></script>
+
+
+    <script>
+        function getCookie(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        // Setup AJAX
+        $(function () {
+            $.ajaxSetup({
+                headers: {"X-CSRFToken": getCookie("csrftoken")}
+            });
+        });
+
+        function like() {
+            var like = $(this);
+            var type = like.data('type');
+            var pk = like.data('id');
+            var action = like.data('action');
+            var dislike = like.next();
+
+            $.ajax({
+                url: pk + "/" + action + "/",
+                type: 'POST',
+                data: {'obj': pk},
+
+                success: function (json) {
+                    like.find("[data-count='like']").text("😀 인정 " + json.like_count);
+                    dislike.find("[data-count='dislike']").text("😂 노인정 " + json.dislike_count);
+                }
+            });
+
+            return false;
+        }
+
+        function dislike() {
+            var dislike = $(this);
+            var route = dislike.data('route');
+            var pk = dislike.data('id');
+            var action = dislike.data('action');
+            var like = dislike.prev();
+            var url = route == null ? pk + "/" + action + "/" : route + "/" + pk + "/" + action + "/";
+
+            $.ajax({
+                url: url,
+                type: 'POST',
+                data: {'obj': pk},
+
+                success: function (json) {
+                    dislike.find("[data-count='dislike']").text("😂 노인정 " + json.dislike_count);
+                    like.find("[data-count='like']").text("😀 인정 " + json.like_count);
+                }
+            });
+
+            return false;
+        }
+
+        // Connecting Handlers
+        $('[data-action="like"]').click(like);
+        $('[data-action="dislike"]').click(dislike);
+    </script>
+
+
+
+<!-- Hotjar Tracking Code for https://class.likelion.org -->
+<script>
+    (function (h, o, t, j, a, r) {
+        h.hj = h.hj || function () {
+            (h.hj.q = h.hj.q || []).push(arguments)
+        };
+        h._hjSettings = {hjid: 1149421, hjsv: 6};
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script');
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+</script>
+</body>
+</html>

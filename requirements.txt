@@ -1,7 +1,7 @@
 awsebcli==3.14.13
 botocore==1.12.107
 cement==2.8.2
-certifi==2018.11.29
+certifi==2022.12.7
 chardet==3.0.4
 colorama==0.3.9
 dj-database-url==0.5.0
